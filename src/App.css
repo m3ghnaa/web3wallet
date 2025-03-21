@@ -1,0 +1,138 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mnemonic-container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap; /* Allows the words to wrap to the next line */
+  gap: 10px;
+  width: 40vw;
+  justify-content: center; /* Adds some space between the words */
+}
+
+.mnemonic-word {
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  color: black;
+  font-size: 16px;
+  border: 2px solid green;
+}
+
+.eth-wallet-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #2a609a;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.add-wallet-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-wallet-button:hover {
+  background-color: #0056b3;
+}
+
+.addresses-container {
+  margin-top: 20px;
+}
+
+.address-item {
+  padding: 10px;
+  background-color: #678bb0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+.sol-wallet-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #6b3885;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.add-sol-wallet-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #a7289f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-sol-wallet-button:hover {
+  background-color: #88217e;
+}
+
+.public-keys-container {
+  margin-top: 20px;
+}
+
+.public-key-item {
+  padding: 10px;
+  background-color: #44515f;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
